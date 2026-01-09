@@ -42,7 +42,9 @@ line-height: 19px;
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     text-align: center;
+    justify-content: center;
     padding: 120px;
+    
 }
 #banner .banner-container .banner-first-btn button{
     color: #30B868;
@@ -50,6 +52,7 @@ line-height: 19px;
     font-weight: 600;
     padding: 15px;
     border-radius: 25px;
+    align-items: center;
 }
 #banner .banner-container h2{
     color: white;
@@ -68,7 +71,7 @@ line-height: 19px;
     margin: 0px 0px 10px 0px;
  }
  #banner .banner-container .banner-last-btn{
-    align-items: center;
+    align-items: center;margin-top: 10px;
  }
  #banner .banner-container .banner-last-btn button{
     height: 44px;
@@ -83,7 +86,8 @@ align-items: center;
  #note{
     text-align: center;
     height: 455px;
-    margin: 120px;
+    margin: 0px 120px;
+
  }
  .note-container h2{
     margin: 0px;
