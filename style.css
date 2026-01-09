@@ -1,5 +1,6 @@
 *{
     font-family: Inter;
+    margin: 0 auto;
 }
 .navigation{
     display: flex;
@@ -136,10 +137,61 @@ background-color: rgba(255, 255, 255, 1);
     font-weight: 500;
     line-height: 20px;
  }
+ .ready-container p{
+    font-size: 18px;
+ }
  .brain-text ul{
     list-style: none;
     padding-left: 0px;
+    padding-top: 25px;
  }
  .brain-text ul img{
    align-items: center;
  }
+ #ready{
+    height: 384px;
+    margin: 0px 120px 120px 120px;
+    background-color:rgba(247, 246, 242, 1) ;
+    border-radius: 12px;
+    text-align:center ;
+    padding-top:80px ;
+ }
+ .ready-container h3{
+    font-size: 40px;
+    font-weight: 700px;
+ }
+ .ready-container p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+ #footer-part{
+    height: 348px;
+    background-color:rgba(0, 25, 49, 1) ;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 150px;
+    text-align: center;
+ }
+ .footer-container{
+    margin-bottom: 164px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer-link i{
+    border: 8px solid white;
+    background-color: white;
+    border-radius: 50%;
+ }
+ #footer-part p{
+    color: white;
+    font-size: 20px;
+margin-bottom: 0px;
+ }
+ #footer-part hr{
+    color: rgb(28, 38, 58);
+ }
+ .footer-part p .copy{
+   padding: 0px;
+   margin: 0px;
+ }
+ 
