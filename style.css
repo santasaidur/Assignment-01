@@ -91,7 +91,7 @@ align-items: center;
     line-height: 58px;
     margin-bottom: 0px;
  }
- #note p{
+ .noted p{
     color:rgba(98, 115, 130, 1) ;
     font-size: 14px;
     font-weight: 400;
@@ -129,4 +129,17 @@ background-color: rgba(255, 255, 255, 1);
  }
  #brain .brain-container .brain-text{
   padding-top: 45px;
+ }
+ .brain-text span{
+    color:rgba(70, 145, 101, 1) ;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+ }
+ .brain-text ul{
+    list-style: none;
+    padding-left: 0px;
+ }
+ .brain-text ul img{
+   align-items: center;
  }
