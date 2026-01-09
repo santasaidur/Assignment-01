@@ -10,8 +10,7 @@
     margin: 0 auto;
 
 }
-.nav-list
-{
+.nav-list{
     list-style: none;
     display: flex;
     gap: 20px;
@@ -31,6 +30,11 @@
  font-weight: 600;
 line-height: 19px;
    
+}
+.nav-btn button:hover{
+    color: #30B868;
+    background-color: white;
+    cursor: pointer;
 }
 #banner{
     height: 674px;
@@ -74,4 +78,55 @@ padding: 10px 14px ;
 background-color: rgba(0, 0, 128, 0);
 border: 1px solid white;
 align-items: center;
+ }
+ #note{
+    text-align: center;
+    height: 455px;
+    margin: 120px;
+ }
+ .note-container h2{
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 0px;
+ }
+ #note p{
+    color:rgba(98, 115, 130, 1) ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0px;
+    margin: 0px;
+ }
+ .note-card{
+    display: flex;
+gap: 30px;
+margin-top: 40px;
+ }
+ .note-card .card img{
+    border: 10px solid  rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    background: rgba(249, 85, 85, 1);
+ }
+ .note-card .card{
+    width: 322px;
+    height: 200px;
+    padding-top: 50px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px ;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+background-color: rgba(255, 255, 255, 1);
+ }
+ #brain{
+    margin: 120px;
+ }
+ #brain .brain-container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+ }
+ #brain .brain-container .brain-text{
+  padding-top: 45px;
  }
