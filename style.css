@@ -36,6 +36,7 @@ line-height: 19px;
     color: #30B868;
     background-color: white;
     cursor: pointer;
+    border: 2px solid #30B868;  
 }
 #banner{
     height: 674px;
@@ -43,7 +44,7 @@ line-height: 19px;
     background-repeat: no-repeat;
     text-align: center;
     justify-content: center;
-    padding: 120px;
+  padding: 120px;
     
 }
 #banner .banner-container .banner-first-btn button{
@@ -61,17 +62,40 @@ line-height: 19px;
     margin: 0px;
 
 }
-#banner .banner-container span{
-     color: #30B868;
-}
+
  #banner .banner-container p{
     color: white;
     font-size: 14px;
     line-height: 24px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 15px 0px;
+    padding-bottom: 10px;
  }
- #banner .banner-container .banner-last-btn{
-    align-items: center;margin-top: 10px;
+ .banner-first-btn img{
+    padding-right: 15px;
+ }
+  
+ .banner-btn-2{
+    display: flex;
+    align-items: center;
+ }
+ .banner-second-button{
+    display: flex;
+ align-items: center;
+ width: 450px;
+   
+ }
+ .banner-btn-2:hover{
+cursor: pointer;
+ }
+ .banner-btn-2 img{
+    padding: 0px;
+    margin: 0px;
+ }
+ .banner-btn-2 p{
+    padding: 0 0 0 5px;
+    align-items: center;
+    margin: 0pz;
+    padding-top: 25px;
  }
  #banner .banner-container .banner-last-btn button{
     height: 44px;
